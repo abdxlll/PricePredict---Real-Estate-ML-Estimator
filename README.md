@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
    streamlit run modelUserInterface.py
 
 ## Adjusting File Paths
-Some parts of the code use absolute file paths that are specific to the developer's environment. To run the project on your local machine, you may need to update these paths.
+Some parts of the code use absolute file paths specific to the developer's environment. To run the project on your local machine, you may need to update these paths.
 
 ### Steps to Change File Paths
 

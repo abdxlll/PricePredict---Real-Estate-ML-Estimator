@@ -1,23 +1,25 @@
 # House Price Prediction
 
 ## Overview
-This project is a simulation designed to demonstrate the concept of house price prediction using machine learning. It was developed for the Bay Area Science and Engineering Fair (BASEF) and was awarded a Bronze Merit Award. The project is intended for educational purposes and is not meant to be used for actual real-world predictions or decision-making.
+This project demonstrates house price prediction using machine learning. It utilizes a dataset with house features to predict house prices. The model is built using **scikit-learn** and serves predictions through a **Streamlit web application**.
 
 ## Features
-- Simulates house price predictions based on user-input features.
-- User-friendly interface for demonstrating the model's functionality.
-- Visualizations to analyze data trends and model performance.
+- Predicts house prices based on user-provided features like bedrooms, bathrooms, square footage, etc.
+- **Streamlit** web interface for interactive use.
+- Displays visualizations to help analyze data trends and model performance.
+- Built for educational purposes with a simple user interface to demonstrate the capabilities of machine learning.
 
 ## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- Matplotlib / Seaborn (for visualizations)
-- Streamlit (for the web application)
+- **Python**
+- **Pandas** (for data manipulation)
+- **NumPy** (for numerical computations)
+- **Scikit-Learn** (for machine learning models)
+- **Matplotlib** / **Seaborn** (for data visualizations)
+- **Streamlit** (for building the interactive web application)
 
 ## Getting Started
-To run this project locally, follow these steps:
+
+Follow these steps to run this project locally:
 
 1. Clone the repository:
    ```bash
@@ -29,24 +31,14 @@ To run this project locally, follow these steps:
    pip install -r requirements.txt
 
 3. Run the application:
+   To launch the Streamlit web app, run:
    ```bash
    streamlit run modelUserInterface.py
 
-## Adjusting File Paths
-Some parts of the code use absolute file paths specific to the developer's environment. To run the project on your local machine, you may need to update these paths.
+## Notes
+- **Model File:** The trained model is saved as model.pkl and is used to make predictions in the web app.
 
-### Steps to Change File Paths
+- **Streamlit Interface:** The Streamlit interface allows you to input house feature values and receive a price prediction in real-time.
 
-1. **Locate the Absolute Paths**: Search for absolute paths in the following files:
-   - `modelBuild.ipynb`
-   - `modelUserInterface.py`
-
-2. **Update Paths**: Replace the paths with the appropriate paths for your system. For example:
-   ```python
-   # Original path in the code
-   data = pd.read_csv('C:/Users/xxxxx/Projects/HousePricePrediction/data.csv')
-   
-   # Change it to your local path
-   data = pd.read_csv('/path/to/your/local/data.csv')
 
 

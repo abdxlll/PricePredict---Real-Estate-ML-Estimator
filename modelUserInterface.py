@@ -4,10 +4,10 @@ import joblib  # Importing joblib for loading the trained model
 from category_encoders import MEstimateEncoder  # Importing MEstimateEncoder for encoding categorical features
 
 # Load the dataset
-data = pd.read_csv('data\\data.csv')
+data = pd.read_csv('data/data.csv')
 
 # Load the trained machine learning model
-model = joblib.load('models\\model.pkl')
+model = joblib.load('models/model.pkl')
 
 # Mapping of city names to corresponding numerical codes
 city_map = {

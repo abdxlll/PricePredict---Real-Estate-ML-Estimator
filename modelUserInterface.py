@@ -4,10 +4,10 @@ import joblib  # Importing joblib for loading the trained model
 from category_encoders import MEstimateEncoder  # Importing MEstimateEncoder for encoding categorical features
 
 # Load the dataset
-data = pd.read_csv('C:\\Users\\Odeja\\OneDrive\\Desktop\\Personal projects\\House price prediction\\data.csv')
+data = pd.read_csv('data\\data.csv')
 
 # Load the trained machine learning model
-model = joblib.load('C:\\Users\\Odeja\\OneDrive\\Desktop\\Personal projects\\House price prediction\\model.pkl')
+model = joblib.load('models\\model.pkl')
 
 # Mapping of city names to corresponding numerical codes
 city_map = {
@@ -49,7 +49,7 @@ X = data[home_features]  # Input features
 y = data["price"]  # Target variable (house price)
 
 # Set the title and subtitle of the Streamlit app
-st.title("Housing Price Prediction")
+st.title("House Price Prediction")
 st.subheader("Enter the details of the house to get an estimated price:")
 
 # User input for various house features

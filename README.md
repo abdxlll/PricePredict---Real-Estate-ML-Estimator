@@ -35,6 +35,9 @@ Follow these steps to run this project locally:
    ```bash
    streamlit run modelUserInterface.py
 
+## Deployment
+The application is deployed on Streamlit Community Cloud, where you can access it for live interactions. You can also view the deployed app by visiting https://house-price-prediction-abdulrahmanodejayi.streamlit.app/
+
 ## Notes
 - **Model File:** The trained model is saved as model.pkl and is used to make predictions in the web app.
 

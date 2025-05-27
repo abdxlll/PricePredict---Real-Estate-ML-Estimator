@@ -49,7 +49,7 @@ X = data[home_features]  # Input features
 y = data["price"]  # Target variable (house price)
 
 # Set the title and subtitle of the Streamlit app
-st.title("House Price Prediction")
+st.title("PricePredict - Real Estate ML Estimator")
 st.subheader("Enter the details of the house to get an estimated price:")
 
 # User input for various house features

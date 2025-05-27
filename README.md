@@ -1,4 +1,4 @@
-# House Price Prediction
+# PricePredict - Real Estate ML Estimator
 
 ## Overview
 This project demonstrates house price prediction using machine learning. It utilizes a dataset with house features to predict house prices. The model is built using **scikit-learn** and serves predictions through a **Streamlit web application**.

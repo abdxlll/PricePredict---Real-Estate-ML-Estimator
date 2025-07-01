@@ -4,3 +4,5 @@ joblib
 pandas
 streamlit
 category-encoders
+statsmodels
+scipy
